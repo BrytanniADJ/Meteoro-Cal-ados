@@ -1,0 +1,78 @@
+:root{ /* Elementos predefinidos */
+/*  Cores bases como: 'black', 'white', 'green', 'red', entre outros (e não bases) não precisa*/
+    --vermelho3sa: #f4544c; /* Cores bases */
+    --branco: #ffffff;
+    --cinza5: #242424;
+    --verde1sa: #a1c1be;
+
+/* Cores testes */
+    --azul4: #100b62;
+    --rosa3: #730d79;
+    --verde4: #084508; 
+}
+body{
+    background-color: black;
+}
+main{
+    background-color: var(--branco);
+}
+.main_login{  
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 7.2%;
+}
+header{
+    align-items: center;
+    background-color: var(--branco);
+    text-align: center;
+}
+.header_cadastro{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.galeria_login{
+    width: 100%;
+}
+.galeria_login .img_logo_login{
+    width: 30%;
+    height: 29%;
+    display: block;
+    margin: 0 auto;
+}
+.login{
+    margin-top: 20%;
+}
+h1{
+    font-size: 25px;
+    margin-top: 8%;
+    margin-left: 18%;
+}
+h2{
+    font-size: 50px;
+}
+input{
+    margin-top: 2%;
+    padding-inline: 2%;
+    padding-right: 230px;
+    height: 40px;
+    font-size: 20px;
+}
+.caixa_login, .button_login{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.button_login{
+    margin-top: 20%;
+}
+button{
+    padding: 6px 25px;
+    font-size: 25px;
+    background-color: var(--cinza5);
+    color: var(--branco);
+}
+.divisoria{
+    background-color: black;
+    padding: 10px;
+}
+/* AJUSTES */
